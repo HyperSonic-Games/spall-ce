@@ -1,7 +1,6 @@
 package main
 
 import "base:intrinsics"
-import "core:mem"
 import "core:math/rand"
 import "core:math"
 import "core:fmt"

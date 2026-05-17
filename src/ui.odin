@@ -5,12 +5,9 @@ import "core:container/queue"
 import "core:time"
 import "core:fmt"
 import "core:math"
-import "core:slice"
 import "core:strings"
 import "core:unicode/utf8"
-import "core:os"
 
-import "core:prof/spall"
 
 to_world_x :: proc(cam: Camera, x: f64) -> f64 {
 	return (x - cam.pan.x) / cam.current_scale

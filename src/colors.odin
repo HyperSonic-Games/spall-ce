@@ -1,7 +1,5 @@
 package main
 
-import "core:fmt"
-import "core:mem"
 import "core:hash"
 import "core:math/rand"
 import "core:math/linalg/glsl"

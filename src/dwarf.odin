@@ -1,11 +1,8 @@
 package main
 
-import "core:os"
 import "core:fmt"
 import "core:strings"
 import "core:slice"
-import "core:encoding/varint"
-import "core:reflect"
 
 Sections :: struct {
 	debug_str:   []u8,
@@ -141,7 +138,7 @@ Dw_At :: enum {
 	const_val          = 0x1c,
 	containing_type    = 0x1d,
 	default_type       = 0x1e,
-	inline              = 0x20,
+	_inline             = 0x20,
 	is_optional        = 0x21,
 	lower_bound        = 0x22,
 	producer           = 0x25,

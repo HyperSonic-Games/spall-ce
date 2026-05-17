@@ -199,7 +199,7 @@ Line :: struct {
 	address: u64,
 	file_idx: u32,
 	number: u32,
-	inline: bool,
+	_inline: bool,
 }
 
 load_pdb :: proc(trace: ^Trace, section_buffer: []u8, pdb_buffer: []u8, bucket: ^Func_Bucket) -> bool {

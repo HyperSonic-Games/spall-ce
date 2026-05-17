@@ -2,7 +2,6 @@
 
 package main
 
-import "core:fmt"
 import "core:strings"
 import NS "core:sys/darwin/Foundation"
 

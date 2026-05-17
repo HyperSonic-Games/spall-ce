@@ -1,7 +1,6 @@
 #+build linux
 package main
 
-import "core:c"
 import "core:sys/unix"
 import "core:os"
 import "core:fmt"

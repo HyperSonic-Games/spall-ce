@@ -1,7 +1,6 @@
 package main
 
 import "core:strings"
-import "core:fmt"
 import "core:math"
 import "core:container/lru"
 import "core:time"
